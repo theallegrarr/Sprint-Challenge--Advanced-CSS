@@ -33,7 +33,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
-- Adaptive Websites adjust their width and height to screensize while responsive websites adjust their entire content and behaviour to the website
+- Adaptive Websites adjust their width and height to screen-size while responsive websites adjust their entire content and behaviour to the device
 
 2. Describe what it means to be mobile first vs desktop first.
 - Mobile first happens when you approach a web development project from the perspective of mobile devices and later go on to adapt the design for desktop users and desktop first is the reverse
