@@ -1,1 +1,28 @@
 // Navigation code here
+@import './mixins.less';
+@import './variables.less';
+
+.navbar {
+    .flexbox(column,space-between,100%);
+    background-color: @nav-bg;
+    border-bottom: 1px solid darken(@nav-bg, 10%);
+    margin-bottom: 0.2%;
+    .name {
+        .flexbox(row,center,100%);
+        font-size: @nav-font-size;
+    }
+    .links{
+        .flexbox(row,space-between,50%);
+        align-self: center;
+        margin: 10%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 15pt;
+        @media @phone {
+            width: 90%;
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+}
