@@ -12,7 +12,7 @@
     justify-items: center;
     border-radius: 20px;
 
-    @media @mobileBreakPoint {
+    @media @phone {
       width: 98%;
       justify-content: center;
       justify-items: center;
@@ -45,13 +45,13 @@
     }
 
     .sky, .launch {
-      @media @mobileBreakPoint {
+      @media @phone {
         display: none;
       }
     }
     
     .blast {
-      @media @mobileBreakPoint {
+      @media @phone {
         width: 100%;
       }
     }
@@ -75,14 +75,14 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
-    @media @mobileBreakPoint {
+    @media @phone {
       .flexbox(column-reverse, space-between, 100%);
       padding: 1%;
       padding-top: 2%;
     }
     .walk-text {
       width: 50%;
-      @media @mobileBreakPoint {
+      @media @phone {
         .flexbox(column, space-between, 100%);
         margin-top: 3%;
       }
@@ -96,7 +96,7 @@
 
       .btn {
         .sign-up(@btn-bg-color, @second-btn-color, white, 16px, 50%);
-        @media @mobileBreakPoint {
+        @media @phone {
           width: 100%;
         }
       }
@@ -105,7 +105,7 @@
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      @media @mobileBreakPoint {
+      @media @phone {
         width: 100%;
         margin-left: 1%;
       }
